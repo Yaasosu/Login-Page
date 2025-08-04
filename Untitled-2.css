@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+body{
+    background: blue;
+    background-image: url('BG.png');
+    background-size: cover;
+    font-family: "Montserrat";
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  /* Вертикальное центрирование */
+    align-items: center;      /* Горизонтальное центрирование */
+    height: 90vh;           /* На всю высоту экрана */
+    margin: 0;
+    padding: 0;
+}
+
+.pola{
+    line-height: 60px;;
+}
+
+.input_username{
+    width: 300px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    font-family: "Montserrat";
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    padding-left: 20px;
+    font-weight: 1px;
+    background-image: url("user.png");
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding-left: 40px;
+
+}
+
+
+.input_username:focus{
+    background-color: transparent;
+}
+
+.input_password{
+    width: 300px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    font-family: "Montserrat";
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    padding-left: 20px;
+    font-weight: normal;
+    background-image: url("lock.png");
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding-left: 40px;
+
+}
+
+
+.input_password:focus{
+    background-color: transparent;
+}
+
+.cart{
+    line-height: 65px
+}
+
+::placeholder{
+    color: white;
+}
+
+.Login_Button{
+    font-family: "Montserrat";
+    font-weight: bold;
+    color: blue;
+    height: 30px;
+    width: 335px;
+    box-shadow: 3px 3px 3px black;
+    cursor: pointer;
+}
+
+.Login_Button:hover{
+    font-family: "Montserrat";
+    font-weight: bold;
+    color: blue;
+    height: 35px;
+    width: 345px;
+    box-shadow: 3px 3px 3px black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.footer_forgot{
+    text-align: right
+}
+
+.forgot{
+    align-items: flex-end;
+    color: white;
+    text-decoration: none;
+}
+
+
+
